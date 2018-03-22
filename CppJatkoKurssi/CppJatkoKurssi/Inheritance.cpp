@@ -1,6 +1,4 @@
-#include "stdafx.h"
 //#pragma once
-//#include "stdafx.h"
 //#include <iostream>
 //#include "Inheritance.h"
 //

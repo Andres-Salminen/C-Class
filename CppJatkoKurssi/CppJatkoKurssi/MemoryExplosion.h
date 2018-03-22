@@ -1,6 +1,5 @@
 #pragma once
-#include "stdafx.h"
-#include <iostream>s
+#include <iostream>
 #include <vector>
 
 void run();

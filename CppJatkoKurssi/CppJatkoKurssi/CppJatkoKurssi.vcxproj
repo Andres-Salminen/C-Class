@@ -111,12 +111,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AutoFor.cpp" />
     <ClCompile Include="Big_Data.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
+    <ClCompile Include="Longaf.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemoryExplosion.cpp" />
+    <ClCompile Include="NullPointerTeht.cpp" />
     <ClCompile Include="VektorStuff.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AutoFor.h" />
     <ClInclude Include="Big_Data.h" />
+    <ClInclude Include="Inheritance.h" />
+    <ClInclude Include="Longaf.h" />
+    <ClInclude Include="MemoryExplosion.h" />
+    <ClInclude Include="NullPointerTeht.h" />
     <ClInclude Include="VektorStuff.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

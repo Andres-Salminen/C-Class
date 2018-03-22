@@ -1,8 +1,6 @@
-// KouluCppJatko.cpp : Defines the entry point for the console application.
-//
 
-#pragma once
-#include "stdafx.h"
+
+
 //#include "NullPointerTeht.h"
 //#include "AutoFor.h"
 //#include "Inheritance.h"
