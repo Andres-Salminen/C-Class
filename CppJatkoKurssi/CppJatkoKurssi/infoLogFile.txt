@@ -1,0 +1,60 @@
+Sat Mar 31 16:23:21 2018
+->    Object ownership transferred. 
+Sat Mar 31 16:23:21 2018
+->    Operator-> used. 
+Sat Mar 31 16:23:21 2018
+->    Operator-> used. 
+Sat Mar 31 16:23:21 2018
+->    Operator-> used. 
+Sat Mar 31 16:23:21 2018
+->    Object destroyed. 
+Sat Mar 31 16:24:49 2018
+->    Object ownership transferred. 
+Sat Mar 31 16:24:49 2018
+->    Operator-> used. 
+Sat Mar 31 16:24:49 2018
+->    Operator-> used. 
+Sat Mar 31 16:24:49 2018
+->    Operator-> used. 
+Sat Mar 31 16:24:49 2018
+->    Object destroyed. 
+Sat Mar 31 16:29:36 2018
+->    Object ownership transferred. 
+Sat Mar 31 16:29:36 2018
+->    Operator-> used. 
+Sat Mar 31 16:29:36 2018
+->    Operator-> used. 
+Sat Mar 31 16:29:36 2018
+->    Operator-> used. 
+Sat Mar 31 16:29:36 2018
+->    Object destroyed. 
+Mon Apr  2 15:37:27 2018
+->    Object ownership transferred. 
+Mon Apr  2 15:37:27 2018
+->    Operator-> used. 
+Mon Apr  2 15:37:27 2018
+->    Operator-> used. 
+Mon Apr  2 15:37:27 2018
+->    Operator-> used. 
+Mon Apr  2 15:37:27 2018
+->    Object destroyed. 
+Mon Apr  2 16:05:15 2018
+->    Object ownership transferred. 
+Mon Apr  2 16:05:15 2018
+->    Operator-> used. 
+Mon Apr  2 16:05:15 2018
+->    Operator-> used. 
+Mon Apr  2 16:05:15 2018
+->    Operator-> used. 
+Mon Apr  2 16:05:15 2018
+->    Object destroyed. 
+Mon Apr  2 16:13:20 2018
+->    Object ownership transferred. 
+Mon Apr  2 16:13:20 2018
+->    Operator-> used. 
+Mon Apr  2 16:13:20 2018
+->    Operator-> used. 
+Mon Apr  2 16:13:25 2018
+->    Operator-> used. 
+Mon Apr  2 16:13:25 2018
+->    Object destroyed. 

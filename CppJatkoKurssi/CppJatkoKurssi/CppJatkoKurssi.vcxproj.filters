@@ -39,6 +39,12 @@
     <ClCompile Include="NullPointerTeht.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Log_Ptr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UniquePtrVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Big_Data.h">
@@ -60,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NullPointerTeht.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UniquePtrVector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
