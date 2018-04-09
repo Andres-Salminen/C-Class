@@ -125,10 +125,15 @@
   <ItemGroup>
     <ClInclude Include="AutoFor.h" />
     <ClInclude Include="Big_Data.h" />
+    <ClInclude Include="CalculateTask.h" />
+    <ClInclude Include="Game_Task.h" />
     <ClInclude Include="Inheritance.h" />
     <ClInclude Include="Longaf.h" />
     <ClInclude Include="MemoryExplosion.h" />
+    <ClInclude Include="MinMaxAlgorithm.h" />
+    <ClInclude Include="Mutex_Guard.h" />
     <ClInclude Include="NullPointerTeht.h" />
+    <ClInclude Include="PrimeNumberTask.h" />
     <ClInclude Include="UniquePtrVector.h" />
     <ClInclude Include="VektorStuff.h" />
   </ItemGroup>
