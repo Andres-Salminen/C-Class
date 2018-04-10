@@ -86,5 +86,11 @@
     <ClInclude Include="MinMaxAlgorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GameTaskMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StickGameMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
