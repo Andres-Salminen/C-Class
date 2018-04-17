@@ -83,51 +83,30 @@ int main()
 */
 inline int is_straight(int *k)
 {
-  int _cardBitValues[14];
+  int _cardBitValues[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
   int i, x;
   x = 0;
-  for (i = 0; i < 14; ++i)
-  {
-    _cardBitValues[i] = x;
-  }
 
-  for (i = 0; i < 5; ++i)
-  {
-    if (k[i] == 14)
-    {
-      _cardBitValues[k[i] - 1] = _cardBitValues[0] = 1;
-    }
-    else
-      _cardBitValues[k[i] - 1] = 1;
-  }
+  if (k[0] == 14 || k[1] == 14 || k[2] == 14 || k[3] == 14 || k[4] == 14)
+    _cardBitValues[0] = _cardBitValues[13] = 1;
   
-  for (i = 0; i < 14; ++i)
-  {
-    if (x > 4)
-      return 1;
-    if (_cardBitValues[i])
-    {
-      ++x;
-      continue;
-    }
-    else if (x > 0)
-    {
-      if (i == 1)
-      {
-        x = 0;
-        continue;
-      }
+  _cardBitValues[k[0] - 1] = 1;
+  _cardBitValues[k[1] - 1] = 1;
+  _cardBitValues[k[2] - 1] = 1;
+  _cardBitValues[k[3] - 1] = 1;
+  _cardBitValues[k[4] - 1] = 1;
+  
+  if (_cardBitValues[0] && _cardBitValues[0 + 1] && _cardBitValues[0 + 2] && _cardBitValues[0 + 3] && _cardBitValues[0 + 4]) return 1;
 
-      break;
+  for (i = 1; i < 10; ++i)
+  {
+    if (_cardBitValues[i])
+    { 
+      if (_cardBitValues[i + 1] && _cardBitValues[i + 2] && _cardBitValues[i + 3] && _cardBitValues[i + 4]) return 1;
+      return 0;
     }
   }
-
-  // for (i = 0; i < 10; ++i)
-  // {
-  //   if (_cardBitValues[i] && _cardBitValues[i + 1] && _cardBitValues[i + 2] && _cardBitValues[i + 3] && _cardBitValues[i + 4])
-  //     return 1;
-  // }
 
   // return 0;
 
