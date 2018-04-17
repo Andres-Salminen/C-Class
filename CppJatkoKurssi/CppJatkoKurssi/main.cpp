@@ -4,9 +4,11 @@
 #include <string>
 #include "Mutex_Guard.h"
 #include "StickGameMain.h"
+#include <fstream>
 
 using namespace std;
 
+void Holyshitcopypastepls();
 
 
 //struct InfoStuff
@@ -39,9 +41,11 @@ int main()
 
 
 	// TEHTÄVÄ 1 -------------------------------------------------------
-	RunGameTaskStuff();
+	//RunGameTaskStuff();
 
 	//DoVectorStuff();
+
+	Holyshitcopypastepls();
 
 	//run();
 	int x;
@@ -83,4 +87,19 @@ void OldStuff()
 	////{
 	////	cout << "Caught an exception of type: " << e.what() << endl;
 	////}
+}
+
+void Holyshitcopypastepls()
+{
+	fstream fileToCopyFrom;
+
+	fileToCopyFrom.open("hallelujahICanCopy.txt", ios::out | ios::app);
+
+	for (int i = 1; i < 25; ++i)
+	{
+		for (int k = 0; k < 40; ++k)
+		{
+			fileToCopyFrom << "screen_mem[" << i - 1 << "][" << k << "] = screen_mem[" << i << "][" << k << "];" << endl;
+		}
+	}
 }
