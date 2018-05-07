@@ -5,10 +5,16 @@
 #include "Mutex_Guard.h"
 #include "StickGameMain.h"
 #include <fstream>
+#include "CharmanderStates.h"
+#include "PeliJutska.h"
 
 using namespace std;
 
 void Holyshitcopypastepls();
+void CharmanderJutut();
+void LetsdoTikkupeli();
+
+
 
 
 //struct InfoStuff
@@ -45,7 +51,9 @@ int main()
 
 	//DoVectorStuff();
 
-	Holyshitcopypastepls();
+	//Holyshitcopypastepls();
+	//CharmanderJutut();
+	LetsdoTikkupeli();
 
 	//run();
 	int x;
@@ -102,4 +110,34 @@ void Holyshitcopypastepls()
 			fileToCopyFrom << "screen_mem[" << i - 1 << "][" << k << "] = screen_mem[" << i << "][" << k << "];" << endl;
 		}
 	}
+}
+
+void CharmanderJutut()
+{
+	float position[] = { 0, 0, 0 };
+	PokemonState* charmanderState = new Charmander();
+	PokemonState* charmeleonState = new Charmeleon();
+	PokemonState* charizardState = new Charizard();
+	Pokemon charmander(charmanderState);
+	charmander.Greet();
+	charmander.Move(position);
+	cout << "My position is now x: " << position[0] << " y: " << position[1] << " z: " << position[2] << "." << endl;
+	charmander.Attack();
+	charmander.ChangeState(charmeleonState);
+	charmander.Greet();
+	charmander.Move(position);
+	cout << "My position is now x: " << position[0] << " y: " << position[1] << " z: " << position[2] << "." << endl;
+	charmander.Attack();
+	charmander.ChangeState(charizardState);
+	charmander.Greet();
+	charmander.Move(position);
+	cout << "My position is now x: " << position[0] << " y: " << position[1] << " z: " << position[2] << "." << endl;
+	charmander.Attack();
+
+}
+
+void LetsdoTikkupeli()
+{
+	Game* tikkuPeli = new TikkuPeli();
+	tikkuPeli->playOneGame(2);
 }

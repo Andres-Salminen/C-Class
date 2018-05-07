@@ -126,6 +126,7 @@
     <ClInclude Include="AutoFor.h" />
     <ClInclude Include="Big_Data.h" />
     <ClInclude Include="CalculateTask.h" />
+    <ClInclude Include="CharmanderStates.h" />
     <ClInclude Include="GameTaskMain.h" />
     <ClInclude Include="Game_Task.h" />
     <ClInclude Include="Inheritance.h" />
@@ -134,6 +135,7 @@
     <ClInclude Include="MinMaxAlgorithm.h" />
     <ClInclude Include="Mutex_Guard.h" />
     <ClInclude Include="NullPointerTeht.h" />
+    <ClInclude Include="PeliJutska.h" />
     <ClInclude Include="PrimeNumberTask.h" />
     <ClInclude Include="StickGameMain.h" />
     <ClInclude Include="UniquePtrVector.h" />

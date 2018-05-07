@@ -92,5 +92,11 @@
     <ClInclude Include="StickGameMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CharmanderStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeliJutska.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
